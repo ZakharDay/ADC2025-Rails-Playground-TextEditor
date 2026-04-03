@@ -1,4 +1,8 @@
 export function initTrixUpgrade() {
+  Trix.config.blockAttributes.heading1 = {
+    tagName: 'h1',
+  };
+
   Trix.config.blockAttributes.heading2 = {
     tagName: 'h2',
   };
