@@ -2,7 +2,12 @@
 import '@hotwired/turbo-rails';
 import 'controllers';
 
-import 'lexxy';
+// import 'lexxy';
 
-// import 'trix';
-// import '@rails/actiontext';
+import '@rails/actiontext';
+
+import 'trix';
+
+import { initTrixUpgrade } from 'trix_upgrade';
+
+initTrixUpgrade();
